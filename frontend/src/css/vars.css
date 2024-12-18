@@ -1,4 +1,10 @@
 :root {
+    /* frame */
+    --frame-background-color: black;
+    --frame-border-radius: 0.75rem;
+    --frame-border-width: 0.4rem;
+    --frame-border-width-half: 0.2rem;
+
     /* colours */
     --light-grey: #f7f9f8;
     --cool-grey: #333460;

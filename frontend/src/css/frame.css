@@ -10,7 +10,7 @@
     bottom: 0;
     overflow: hidden;
 
-    background-color: #000;
+    background-color: var(--frame-background-color);
 
     z-index: var(--z-base);
 }
@@ -63,8 +63,8 @@
 /* Splitview layout */
 .layout-splitview {
     .frame {
-        border: 0.4rem solid black;
-        border-radius: 0.75rem;
+        border: var(--frame-border-width) solid var(--frame-background-color);
+        border-radius: var(--frame-border-radius);
     }
 
     &.frameless .frame {
@@ -82,13 +82,13 @@
 }
 
 .frame--layout-splitview:nth-child(1) {
-    border-right: 0.2rem solid black;
-    border-radius: 0.75rem;
+    border-right: var(--frame-border-width-half) solid var(--frame-background-color);
+    border-radius: var(--frame-border-radius);
 }
 
 .frame--layout-splitview:nth-child(2) {
-    border-left: 0.2rem solid black;
-    border-radius: 0.75rem;
+    border-left: var(--frame-border-width-half) solid var(--frame-background-color);
+    border-radius: var(--frame-border-radius);
 }
 
 .frameless .frame--layout-splitview {
@@ -106,8 +106,8 @@
 .layout-splitview-landscape {
     .frame {
         flex-direction: column;
-        border: 0.4rem solid black;
-        border-radius: 0.75rem;
+        border: var(--frame-border-width) solid var(--frame-background-color);
+        border-radius: var(--frame-border-radius);
     }
 
     &.frameless .frame {
@@ -125,13 +125,13 @@
     overflow: hidden;
 
     &:nth-child(1) {
-        border-bottom: 0.2rem solid black;
-        border-radius: 0.75rem;
+        border-bottom: var(--frame-border-width-half) solid var(--frame-background-color);
+        border-radius: var(--frame-border-radius);
     }
 
     &:nth-child(2) {
-        border-top: 0.2rem solid black;
-        border-radius: 0.75rem;
+        border-top: var(--frame-border-width-half) solid var(--frame-background-color);
+        border-radius: var(--frame-border-radius);
     }
 }
 

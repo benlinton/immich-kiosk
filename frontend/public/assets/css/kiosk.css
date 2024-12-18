@@ -472,7 +472,7 @@ body {
   opacity: 0.3;
   padding: 0 0.5rem;
 }
-.frame--layout-splitview .image--metadata--desciption, .frame--layout-splitview-landscape .image--metadata--desciption {
+.frame--layout-splitview .image--metadata--description, .frame--layout-splitview-landscape .image--metadata--description {
     max-width: 50%;
   }
 .frame--layout-splitview:nth-child(1) .image--metadata {
@@ -552,7 +552,7 @@ body {
     padding: 0.5rem !important;
     max-width: 50vw;
   }
-  .image--metadata--desciption {
+  .image--metadata--description {
     max-width: 100%;
   }
   .image--metadata--date,
